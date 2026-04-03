@@ -195,6 +195,10 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 #product1 .pro1{
     width: 25px;
