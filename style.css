@@ -60,6 +60,10 @@ body {
     padding: 20px 80px;
     background-color: rgb(225, 225, 255);
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
      
 }
 #navbar{
@@ -132,7 +136,117 @@ body {
     padding: 14px 80px;
     background-repeat: no-repeat;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 #hero button:hover{
     transform: scale(0.9)
+}
+
+/* Feature Section */
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#feature .f-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid #cce7d0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#feature .f-box:hover {
+    transform: scale(1.08); /* slightly bigger */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* shadow for depth */
+}
+#feature .f-box h6{
+    display: inline-block;
+    background-color: #dcf7f5;
+    padding: 10px;
+}
+#feature .f-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .f-box:nth-child(2) h6{
+    background-color: #f7dcf3;
+}
+#feature .f-box:nth-child(3) h6{
+    background-color: #dcf7de;
+}
+#feature .f-box:nth-child(4) h6{
+    background-color: #c0dffc;
+}
+#feature .f-box:nth-child(5) h6{
+    background-color: #dac0fc;
+}
+#feature .f-box:nth-child(6) h6{
+    background-color: #ebc0fc;
+}
+
+/* Products Section */
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+#product1 .pro1{
+    width: 25px;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+#product1 .pro1:hover{
+    transform: scale(1.08); /* slightly bigger */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* shadow for depth */
+}
+
+#product1 .pro1 img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#product1 .pro1 .discription{
+    text-align: start;
+}
+#product1 .pro1 .discription span{
+    color: #088178;
+    font-size: 12px;
+}
+#product1 .pro1 .discription h5{
+    padding-top: 6px;
+    font-size: 14px;
+}
+#product1 .pro1 .discription .star i{
+    padding-top: 3px;
+    color: rgb(241, 241, 111);
+}
+#product1 .pro1 .discription h4{
+    padding: 7px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #088178;
+}
+#product1 .pro1 .discription .price{
+    display: flex;
+    justify-content: space-between;
+}
+#product1 .pro1 .discription .price i{
+    padding-right: 20px;
+    color: #088178;
+    transition: all 0.3s ease;
+}
+#product1 .pro1 .discription .price i:hover{
+    transform: scale(1.3);
 }
