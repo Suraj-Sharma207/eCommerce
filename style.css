@@ -297,6 +297,254 @@ body {
 #banner span{
     color: #e42121;
 }
+#banner button{
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
 #banner button:hover{
     transform: scale(1.05);
+}
+#smBanner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+#smBanner .bannerBox1{
+    background-image: url("img/banner/b17.jpg");
+    height: 50vh;
+    min-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    gap: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#smBanner .bannerBox2{
+    background-image: url("img/banner/b10.jpg");
+    height: 50vh;
+    min-width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    gap: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+ 
+#smBanner h4{
+    color: #ffffff;
+    font-weight: 500;
+}
+button.bannerBtn{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #ffffff;
+    background-color:  transparent;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: 0.2s;
+}
+#smBanner .bannerBtn:hover{
+    transform: scale(1.05);
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 80px;
+}
+#banner3 .bannerBox1{
+    background-image: url("img/banner/b7.jpg");
+    height: 30vh;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .bannerBox2{
+    background-image: url("img/banner/b4.jpg");
+    height: 30vh;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .bannerBox3{
+    background-image: url("img/banner/b18.jpg");
+    height: 30vh;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 h2{
+    color: #c0dffc;
+    font-weight: 900;
+    font-size: 22px;
+}
+#banner3 h3{
+    color: #f55b5b;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#newsBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    background-color: #0b1a31;
+}
+#newsBox h4{
+    color: #c0dffc;
+    font-weight: 700;
+}
+#newsBox p{
+    color: #74899c;
+    font-weight: 600;
+}
+#newsBox p span{
+    color: #f8773b;
+    font-weight: 600;
+}
+#newsBox input{
+    height: 3.2rem;
+    width: 100%;
+    padding: 0 1.25em;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsBox button{
+    color: #ffff;
+    background-color: #74899c;
+    height: 3.2rem;
+    font-size: 12px;
+    width: 40%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+     
+
+}
+#newsBox .form{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    width: 40%;
+    gap: 5px;
+     
+}
+
+.footer {
+    background-color: #f3f3f3;
+    padding: 40px 80px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: #088178;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.follow{
+    margin-top: 10px;
+}
+
+.follow .icon i {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.follow .icon i:hover {
+    color: #088178;
+    transform: scale(1.05);
+
+}
+
+.install .row img {
+    width: 120px;
+    margin-right: 10px;
+    border: 1px solid #088178;
+    border-radius: 5px;
+}
+
+.install img {
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
 }
