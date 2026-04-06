@@ -1251,4 +1251,26 @@ marquee {
     #about-section h1{
         font-size: 12px;
     }
+    #contactDetails {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #contactDetails .details h2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 0;
+    }
+     #contactDetails .map {
+        width: 100%;
+        height: 300px;
+    }
+
+    #contactDetails .map iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
 }
